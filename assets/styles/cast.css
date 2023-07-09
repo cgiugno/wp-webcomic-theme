@@ -36,6 +36,10 @@
     margin: 0;
 
 }
+.nav-comic-header-img img {
+    width: 100%;
+    height: auto;
+}
 
 @media screen and (max-width: 575px) {
     .nav-comic-header-menu {

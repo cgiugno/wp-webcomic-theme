@@ -1,0 +1,43 @@
+
+@media screen and (max-width: 767px) {
+    footer {
+        padding-top: 1vh;
+        background-color: #333333;
+    }
+
+    footer p {
+        color: #FCF4BC;
+        opacity: 0.6;
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    footer p {
+        color: #FFE21D;
+        opacity: 0.6;
+    }
+}
+
+footer {
+    margin-top: 5vh;
+    padding-bottom: 1vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: 20;
+}
+
+
+footer p {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+
+    margin: 0;
+}

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0 maximum-scale=1.0">
+    <title>Wordpress Comic Theme</title>
+    
+    <meta name="description" content="Wordpress theme for a webcomic.">
+    <link rel="icon" type="image/x-icon" href="./assets/img/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="./assets/styles/header.css" rel="stylesheet" type="text/css" media="all">
+    <link href="./assets/styles/footer.css" rel="stylesheet" type="text/css" media="all">
+
+    
+    <link href="./assets/styles/style.css" rel="stylesheet" type="text/css" media="all">
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+        crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/ad2d538d7f.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="background">
+        <div class="row">
+            <header class="col-10 col-md-3 header">
+                <img class="header-img" src="./assets/img/titleimgink_no_bkgrnd.png" alt="Comic Title Image" />
+                <nav class="header-text">
+                    <div class="nav top-nav flex-column">
+                        <a class="nav-item nav-link active" href="#">
+                            <p>
+                                First
+                            </p>
+                        </a>
+                        <a class="nav-item nav-link active" href="#">
+                            <p>
+                                Latest
+                            </p>
+                        </a>
+                    </div>
+                    <hr class="nav-hr">
+                    <div class="nav bottom-nav flex-column">
+                        <a class="nav-item nav-link active" href="./about.html">
+                            <p>
+                                About
+                            </p>
+                        </a>
+                        <a class="nav-item nav-link active" href="#">
+                            <p>
+                                Cast
+                            </p>
+                        </a>
+                        <a class="nav-item nav-link active" href="#">
+                            <p>
+                                Archive
+                            </p>
+                        </a>
+                    </div>
+                </nav>
+            </header>
+            <main>
+                <div class="nav-comic-header col-10">
+                    <img class="nav-comic-header-img" src="./assets/img/comicheader.png" alt="Sample Comic Header Image">
+                    <nav class="nav nav-comic-header-menu">
+                        <a class="nav-item nav-link active nav-link-dark" href="#">
+                            <p>
+                                First
+                            </p>
+                        </a>
+                        <a class="nav-item nav-link active nav-link-dark" href="#">
+                            <p>
+                                Latest
+                            </p>
+                        </a>
+                        <wbr>
+                        <a class="nav-item nav-link active nav-link-light" href="#">
+                            <p>
+                                About
+                            </p>
+                        </a>
+                        <a class="nav-item nav-link active nav-link-light" href="./about.html">
+                            <p>
+                                Cast
+                            </p>
+                        </a>
+                        <a class="nav-item nav-link active nav-link-light" href="#">
+                            <p>
+                                Archive
+                            </p>
+                        </a>
+                    </nav>
+                </div>
+                <div class="body-container col-10 col-md-7 offset-md-4">
+                    <h1 class="title-one">Comic Title</h1>
+                    <img class="comic" src="./assets/img/CansonV2PG49.png" alt="Sample comic">
+                    <h1 class="title-two">Comic Title</h1>
+                    <nav class="comics-nav nav navbar-nav">
+                        <img class="comics-nav-img to-first left-nav" src="./assets/img/first.svg">
+                        <img class="comics-nav-img prev left-nav" src="./assets/img/back.svg">
+                        <div class="archive-dropdown dropdown">
+                            <button class="dropdown-toggle" type="button" id="dropdownMenuButton"
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
+                                Archive <span class="caret"></span>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Page 1</a>
+                                <a class="dropdown-item" href="#">Page 2</a>
+                                <a class="dropdown-item" href="#">Page 3</a>
+                            </div>
+                        </div>
+                        <img class="comics-nav-img forward right-nav" src="./assets/img/forward.svg">
+                        <img class="comics-nav-img last right-nav" src="./assets/img/last.svg">
+                    </nav>
+                </div>
+                <section class="comments col-10 col-md-7 offset-md-4">
+                    <h2>
+                        Author Notes
+                    </h2>
+                    <div class="author-comment comment" role="comment">
+                        <img class="author-comment-profile-pic comment-profile-pic" src="./assets/img/profilepic.png" alt="Sample Profile Picture"/>
+                        <section class="author-comment-content comment-content">
+                            <h3 class="author-username username">Username</h3>
+                            <hr class="author-comment-content-hr comment-content-hr">
+                            <p>Comment</p>
+                        </section>
+                    </div>
+                    <h2>10 Comments</h2>
+                    <form class="comment-form">
+                        <h3>Leave a Comment</h3>
+                        <div class="username-input input">
+                            <label for="username" id="username-label">Name *</label>
+                            <input type="text" id="username" aria-labelledby="username-label" aria-required="true">
+                        </div>
+                        <div class="email-input input">
+                            <label for="email" id="email-label">Email *</label>
+                            <input type="email" id="email" aria-labelledby="email-label" aria-required="true">
+                        </div>
+                        <div class="comment-input input">
+                            <label for="comment-form" id="comment-label">Comment</label>
+                            <textarea id="comment-form" aria-labelledby="comment-label" aria-required="true"></textarea>
+                        </div>
+                        <input type="submit" value="Submit Comment" class="submit-comment">
+                    </form>
+                    <hr class="comment-section-hr">
+                    <div class="comment" role="comment">
+                        <img class="comment-profile-pic" src="./assets/img/profilepic.png" alt="Sample Profile Picture"/>
+                        <section class="comment-content">
+                            <h3 class="username">Username</h3>
+                            <hr class="comment-content-hr">
+                            <p>Comment</p>
+                        </section>
+                        <button class="reply-button" onclick="showReply(event)">
+                            <i class="fa-solid fa-reply fa-2xl normal" style="color: #fcf4bc;"></i>
+                            <i class="fa-solid fa-reply fa-beat fa-2xl on-hover" style="color: #fcf4bc;"></i>
+                        </button>
+                    </div>
+                </section>
+            </main>
+        </div>
+        <footer>
+            <p class="col-10 col-md-7 offset-md-4">
+                © 2023 Dark Roast Coffee
+            </p>
+        </footer>
+    </div>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js"></script> -->
+    <script type="text/javascript" src="./assets/js/index.js"></script>
+</body>
+
+</html>
